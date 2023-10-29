@@ -1,0 +1,43 @@
+.navbar-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  
+  .navbar {
+    float: left;
+  }
+  
+  .navbar a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  .navbar a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
+  hr{
+    width:50%
+  }
+
+.person{
+    list-style: none;
+    display: block;
+}
+.person-li{
+    display: inline;
+    margin: 130px;
+    position: relative;
+}
+ 
